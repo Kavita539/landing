@@ -1,0 +1,4 @@
+const StatsSection = () => {
+};
+
+export {StatsSection};

@@ -1,0 +1,60 @@
+.hero-sec-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 31rem;
+    margin: auto;
+    width: 80%;
+}
+
+.left-hero-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    color: #001F27;
+}
+
+.hero-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #001F27;
+}
+
+.cta-btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.primary-btn {
+    width: 164px;
+    height: 54px;
+    background-color: #FF736A;
+    border-radius: 80px;
+    color: #FFFFFF
+}
+
+.secondary-btn {
+    color: #FF736A;
+    width: 229px;
+    height: 54px;
+    border: 2px solid #FF736A;
+    border-radius: 80px;
+}
+
+.border-frame {
+    width: 483px;
+    height: 286px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
