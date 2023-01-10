@@ -1,0 +1,70 @@
+/* @import subscribePlans from ""; */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.ellipse {
+    background: #139980;
+    box-shadow: 0px 4px 63px 51px rgba(19, 153, 128, 0.43);
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    position: relative;
+}
+
+.subscribe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rectangle {
+    position: absolute;
+    z-index: 10;
+    width: 268px;
+    height: 175px;
+    top: 11.5rem;
+    left: -3rem;
+}
+
+@supports (backdrop-filter: blur(10px)) {
+    .rectangle {
+        background: linear-gradient(180deg, rgba(251, 251, 253, 0) -50%, #FBFBFD 74.21%);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.container {
+    position: absolute;
+    width: 23.7rem;
+    height: 11rem;
+    background: #FFFFFF;
+    box-shadow: 26px 26px 23px rgba(204, 210, 212, 0.36);
+    border-radius: 12px;
+}
+
+.container-one{
+    top: -10rem;
+    left: 2rem;
+}
+
+.container-two{
+    top: -10rem;
+    right: 2rem;
+}
+
+.container-three{
+    bottom: -9rem;
+    left: 3rem;
+}
+
+.container-four{
+    bottom: -9rem;
+    right: 3rem;
+}
