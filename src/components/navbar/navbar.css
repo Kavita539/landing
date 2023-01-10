@@ -48,8 +48,11 @@ li {
 }
 
 .login-btn {
-    background-color: linear-gradient(360deg, #52A49A -65.93%, #00CDAC 100%);
+    background: linear-gradient(360deg, #52A49A -65.93%, #00CDAC 100%);
     border-radius: 5rem;
     width: 7.8rem;
     height: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }

@@ -1,11 +1,13 @@
 import './App.css'
-import { Home } from './pages/home/Home'
+import { Home } from './pages/home/Home';
+import { NavigationRoutes } from './routes/NavigationRoute';
 
 function App() {
 
   return (
     <div className="App">
-      <Home/>
+      {/* <Home/> */}
+      <NavigationRoutes/>
     </div>
   )
 }
