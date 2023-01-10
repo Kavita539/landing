@@ -41,6 +41,7 @@
 }
 
 .primary-btn {
+    margin-right: 1rem;
     width: 164px;
     height: 54px;
     background-color: #FF736A;
@@ -58,7 +59,7 @@
 }
 
 .border-frame {
-    width: 483px;
+    width: 420px;
     height: 286px;
     border: 1px solid #000000;
     border-radius: 30px;
