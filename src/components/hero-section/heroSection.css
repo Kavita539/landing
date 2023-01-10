@@ -11,6 +11,8 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 687px;
+    height: 284px;
 }
 
 .hero-heading {
@@ -20,6 +22,8 @@
     font-size: 56px;
     line-height: 68px;
     color: #001F27;
+    width: 687px;
+    height: 204px;
 }
 
 .hero-para {
@@ -41,7 +45,8 @@
     height: 54px;
     background-color: #FF736A;
     border-radius: 80px;
-    color: #FFFFFF
+    color: #FFFFFF;
+    border: none;
 }
 
 .secondary-btn {
